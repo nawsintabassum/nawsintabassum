@@ -137,26 +137,6 @@ A real-time communication application designed to enable instant interaction bet
 
 ---
 
-## 📈 GitHub Contribution Graph
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=nawsintabassum&theme=tokyo-night&hide_border=true" />
-
-</div>
-
----
-
-## 🏆 GitHub Achievements
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=nawsintabassum&theme=tokyonight&no-frame=true&margin-w=10" />
-
-</div>
-
----
-
 ## 🌐 Connect With Me
 
 <p align="center">
