@@ -117,7 +117,6 @@ A real-time communication application designed to enable instant interaction bet
 * 🧠 Data Structures & Algorithms
 
 ---
-
 ## 📊 GitHub Statistics
 
 <div align="center">
@@ -128,7 +127,7 @@ A real-time communication application designed to enable instant interaction bet
 
 </div>
 
-<br>
+---
 
 <div align="center">
 
