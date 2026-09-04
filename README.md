@@ -133,29 +133,23 @@ A real-time communication application designed to enable instant interaction bet
 
 ---
 
-## 📊 GitHub Statistics
-
 <h2 align="center">📊 GitHub Statistics</h2>
 
 <p align="center">
-  <img
-    src="https://raw.githubusercontent.com/nawsintabassum/nawsintabassum/main/profile/stats.svg"
-    alt="GitHub Statistics"
-  />
+  <img 
+  src="https://github-readme-stats.vercel.app/api?username=nawsintabassum&show_icons=true&theme=tokyonight&border_radius=10" alt="GitHub Statistics" />
+
 </p>
 
 ---
 
-## 💻  Most Used Languages
-
-
 <h2 align="center">💻 Most Used Languages</h2>
 
 <p align="center">
+
   <img
-    src="https://raw.githubusercontent.com/nawsintabassum/nawsintabassum/main/profile/top-langs.svg"
-    alt="Most Used Languages"
-  />
+   src="https://github-readme-stats.vercel.app/api/top-langs/?username=nawsintabassum&layout=compact&theme=tokyonight&border_radius=10" alt="Most Used Languages" />
+
 </p>
 
 ---
@@ -163,11 +157,10 @@ A real-time communication application designed to enable instant interaction bet
 <h2 align="center">📈 GitHub Activity Graph</h2>
 
 <p align="center">
-  <img
-    src="https://raw.githubusercontent.com/nawsintabassum/nawsintabassum/main/profile/activity-graph.svg"
-    alt="GitHub Activity Graph"
-    width="100%"
-  />
+
+  <img 
+  src="https://github-readme-activity-graph.vercel.app/graph?username=nawsintabassum&theme=react-dark&border_radius=10" alt="GitHub Activity Graph" />
+  
 </p>
 
 ---
