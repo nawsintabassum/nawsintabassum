@@ -1,0 +1,87 @@
+name: Generate GitHub Profile Stats
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate-stats:
+    name: Generate Profile Statistics
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Create Profile Directory
+        run: |
+          mkdir -p profile
+
+      - name: Generate GitHub Statistics Card
+        run: |
+          curl -L \
+            -A "Mozilla/5.0" \
+            --retry 10 \
+            --retry-all-errors \
+            --retry-delay 5 \
+            --connect-timeout 60 \
+            --max-time 300 \
+            -o profile/stats.svg \
+            "https://github-readme-stats.vercel.app/api?username=nawsintabassum&show_icons=true&theme=tokyonight&border_radius=10" alt="GitHub Statistics"
+
+      - name: Check Statistics File
+        run: |
+          ls -la profile/
+          head -n 5 profile/stats.svg
+
+      - name: Generate Most Used Languages Card
+        run: |
+          curl -L \
+            -A "Mozilla/5.0" \
+            --retry 10 \
+            --retry-all-errors \
+            --retry-delay 5 \
+            --connect-timeout 60 \
+            --max-time 300 \
+            -o profile/top-langs.svg \
+            "https://github-readme-stats.vercel.app/api/top-langs/?username=nawsintabassum&layout=compact&theme=tokyonight&border_radius=10" alt="Most Used Languages" "
+
+      - name: Generate GitHub Activity Graph
+        run: |
+          curl -L \
+            -A "Mozilla/5.0" \
+            --retry 10 \
+            --retry-all-errors \
+            --retry-delay 5 \
+            --connect-timeout 60 \
+            --max-time 300 \
+            -o profile/activity-graph.svg \
+            "https://github-readme-activity-graph.vercel.app/graph?username=nawsintabassum&theme=react-dark&border_radius=10" alt="GitHub Activity Graph"
+
+      - name: Check Generated Files
+        run: |
+          ls -la profile/
+
+      - name: Configure Git
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Add Generated Files
+        run: |
+          git add profile/
+
+      - name: Commit Changes
+        run: |
+          git diff --cached --quiet || git commit -m "Update GitHub profile statistics"
+
+      - name: Push Changes
+        run: |
+          git push
