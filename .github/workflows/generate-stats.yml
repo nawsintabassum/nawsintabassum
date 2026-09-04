@@ -1,0 +1,81 @@
+name: Generate GitHub Profile Stats
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate-stats:
+    name: Generate Profile Statistics
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Create Profile Directory
+        run: |
+          mkdir -p profile
+
+      - name: Generate GitHub Statistics Card
+        run: |
+          curl \
+            --location \
+            --fail \
+            --retry 5 \
+            --retry-delay 3 \
+            --connect-timeout 30 \
+            --max-time 120 \
+            "https://github-readme-stats.vercel.app/api?username=nawsintabassum&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=false" \
+            --output profile/stats.svg
+
+      - name: Generate Most Used Languages Card
+        run: |
+          curl \
+            --location \
+            --fail \
+            --retry 5 \
+            --retry-delay 3 \
+            --connect-timeout 30 \
+            --max-time 120 \
+            "https://github-readme-stats.vercel.app/api/top-langs/?username=nawsintabassum&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" \
+            --output profile/top-langs.svg
+
+      - name: Generate GitHub Activity Graph
+        run: |
+          curl \
+            --location \
+            --fail \
+            --retry 5 \
+            --retry-delay 3 \
+            --connect-timeout 30 \
+            --max-time 120 \
+            "https://github-readme-activity-graph.vercel.app/graph?username=nawsintabassum&theme=tokyo-night&hide_border=true&area=true&radius=10" \
+            --output profile/activity-graph.svg
+
+      - name: Configure Git
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Add Generated Files
+        run: |
+          git add profile/stats.svg
+          git add profile/top-langs.svg
+          git add profile/activity-graph.svg
+
+      - name: Commit Changes
+        run: |
+          git diff --cached --quiet || \
+          git commit -m "Update GitHub profile statistics"
+
+      - name: Push Changes
+        run: |
+          git push
