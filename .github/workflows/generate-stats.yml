@@ -34,7 +34,7 @@ jobs:
             --connect-timeout 60 \
             --max-time 300 \
             -o profile/stats.svg \
-            "https://github-readme-stats.vercel.app/api?username=nawsintabassum&show_icons=true&theme=tokyonight&border_radius=10" alt="GitHub Statistics"
+            "https://github-readme-stats.vercel.app/api?username=nawsintabassum&show_icons=true&theme=tokyonight&border_radius=10"
 
       - name: Check Statistics File
         run: |
@@ -51,7 +51,7 @@ jobs:
             --connect-timeout 60 \
             --max-time 300 \
             -o profile/top-langs.svg \
-            "https://github-readme-stats.vercel.app/api/top-langs/?username=nawsintabassum&layout=compact&theme=tokyonight&border_radius=10" alt="Most Used Languages" "
+            "https://github-readme-stats.vercel.app/api/top-langs/?username=nawsintabassum&layout=compact&theme=tokyonight&border_radius=10"
 
       - name: Generate GitHub Activity Graph
         run: |
@@ -63,7 +63,7 @@ jobs:
             --connect-timeout 60 \
             --max-time 300 \
             -o profile/activity-graph.svg \
-            "https://github-readme-activity-graph.vercel.app/graph?username=nawsintabassum&theme=react-dark&border_radius=10" alt="GitHub Activity Graph"
+            "https://github-readme-activity-graph.vercel.app/graph?username=nawsintabassum&theme=react-dark&border_radius=10"
 
       - name: Check Generated Files
         run: |
