@@ -136,8 +136,8 @@ A real-time communication application designed to enable instant interaction bet
 <h2 align="center">📊 GitHub Statistics</h2>
 
 <p align="center">
-  <img 
-  src="https://github-readme-stats.vercel.app/api?username=nawsintabassum&show_icons=true&theme=tokyonight&border_radius=10" alt="GitHub Statistics" />
+
+  <img src="./profile/stats.svg" alt="GitHub Statistics" />
 
 </p>
 
@@ -147,8 +147,7 @@ A real-time communication application designed to enable instant interaction bet
 
 <p align="center">
 
-  <img
-   src="https://github-readme-stats.vercel.app/api/top-langs/?username=nawsintabassum&layout=compact&theme=tokyonight&border_radius=10" alt="Most Used Languages" />
+  <img src="./profile/top-langs.svg" alt="Most Used Languages" />
 
 </p>
 
@@ -158,8 +157,7 @@ A real-time communication application designed to enable instant interaction bet
 
 <p align="center">
 
-  <img 
-  src="https://github-readme-activity-graph.vercel.app/graph?username=nawsintabassum&theme=react-dark&border_radius=10" alt="GitHub Activity Graph" />
+  <img src="./profile/activity-graph.svg" alt="GitHub Activity Graph" />
   
 </p>
 
