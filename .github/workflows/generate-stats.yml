@@ -26,39 +26,48 @@ jobs:
 
       - name: Generate GitHub Statistics Card
         run: |
-          curl \
-            --location \
-            --fail \
-            --retry 5 \
-            --retry-delay 3 \
-            --connect-timeout 30 \
-            --max-time 120 \
-            "https://github-readme-stats.vercel.app/api?username=nawsintabassum&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=false" \
-            --output profile/stats.svg
+          curl -L \
+            -A "Mozilla/5.0" \
+            --retry 10 \
+            --retry-all-errors \
+            --retry-delay 5 \
+            --connect-timeout 60 \
+            --max-time 300 \
+            -o profile/stats.svg \
+            "https://github-readme-stats.vercel.app/api?username=nawsintabassum&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true"
+
+      - name: Check Statistics File
+        run: |
+          ls -la profile/
+          head -n 5 profile/stats.svg
 
       - name: Generate Most Used Languages Card
         run: |
-          curl \
-            --location \
-            --fail \
-            --retry 5 \
-            --retry-delay 3 \
-            --connect-timeout 30 \
-            --max-time 120 \
-            "https://github-readme-stats.vercel.app/api/top-langs/?username=nawsintabassum&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" \
-            --output profile/top-langs.svg
+          curl -L \
+            -A "Mozilla/5.0" \
+            --retry 10 \
+            --retry-all-errors \
+            --retry-delay 5 \
+            --connect-timeout 60 \
+            --max-time 300 \
+            -o profile/top-langs.svg \
+            "https://github-readme-stats.vercel.app/api/top-langs/?username=nawsintabassum&layout=compact&theme=tokyonight&hide_border=true&langs_count=8"
 
       - name: Generate GitHub Activity Graph
         run: |
-          curl \
-            --location \
-            --fail \
-            --retry 5 \
-            --retry-delay 3 \
-            --connect-timeout 30 \
-            --max-time 120 \
-            "https://github-readme-activity-graph.vercel.app/graph?username=nawsintabassum&theme=tokyo-night&hide_border=true&area=true&radius=10" \
-            --output profile/activity-graph.svg
+          curl -L \
+            -A "Mozilla/5.0" \
+            --retry 10 \
+            --retry-all-errors \
+            --retry-delay 5 \
+            --connect-timeout 60 \
+            --max-time 300 \
+            -o profile/activity-graph.svg \
+            "https://github-readme-activity-graph.vercel.app/graph?username=nawsintabassum&theme=tokyo-night&hide_border=true&area=true&radius=10"
+
+      - name: Check Generated Files
+        run: |
+          ls -la profile/
 
       - name: Configure Git
         run: |
@@ -67,14 +76,11 @@ jobs:
 
       - name: Add Generated Files
         run: |
-          git add profile/stats.svg
-          git add profile/top-langs.svg
-          git add profile/activity-graph.svg
+          git add profile/
 
       - name: Commit Changes
         run: |
-          git diff --cached --quiet || \
-          git commit -m "Update GitHub profile statistics"
+          git diff --cached --quiet || git commit -m "Update GitHub profile statistics"
 
       - name: Push Changes
         run: |
