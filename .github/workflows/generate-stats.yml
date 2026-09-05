@@ -2,6 +2,8 @@ name: Generate GitHub Profile Stats
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *"
 
 permissions:
   contents: write
@@ -11,65 +13,96 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-
       - name: Checkout Repository
         uses: actions/checkout@v4
-        with:
-          persist-credentials: true
-          fetch-depth: 0
 
-      - name: Create Profile Folder
+      - name: Create Profile Directory
         run: |
           mkdir -p profile
-          echo "Profile folder created"
 
-      - name: Generate GitHub Stats
+      - name: Generate GitHub Statistics Card
         run: |
-          curl -L \
-            -A "Mozilla/5.0" \
+          curl --location \
+            --fail \
+            --show-error \
             --retry 5 \
             --retry-all-errors \
-            --retry-delay 3 \
-            "https://github-readme-stats.vercel.app/api?username=nawsintabassum&show_icons=true&theme=tokyonight&hide_border=true" \
-            -o profile/stats.svg
+            --retry-delay 5 \
+            --connect-timeout 30 \
+            --max-time 120 \
+            "https://github-readme-stats.vercel.app/api?username=nawsintabassum&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true" \
+            --output profile/stats.svg
 
-      - name: Generate Top Languages
+      - name: Verify Statistics SVG
         run: |
-          curl -L \
-            -A "Mozilla/5.0" \
+          if grep -q "<svg" profile/stats.svg; then
+            echo "Stats SVG generated successfully"
+          else
+            echo "Invalid SVG file!"
+            cat profile/stats.svg
+            exit 1
+          fi
+
+      - name: Generate Top Languages Card
+        run: |
+          curl --location \
+            --fail \
+            --show-error \
             --retry 5 \
             --retry-all-errors \
-            --retry-delay 3 \
+            --retry-delay 5 \
+            --connect-timeout 30 \
+            --max-time 120 \
             "https://github-readme-stats.vercel.app/api/top-langs/?username=nawsintabassum&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" \
-            -o profile/top-langs.svg
+            --output profile/top-langs.svg
+
+      - name: Verify Top Languages SVG
+        run: |
+          if grep -q "<svg" profile/top-langs.svg; then
+            echo "Top Languages SVG generated successfully"
+          else
+            echo "Invalid SVG file!"
+            cat profile/top-langs.svg
+            exit 1
+          fi
 
       - name: Generate Activity Graph
         run: |
-          curl -L \
-            -A "Mozilla/5.0" \
+          curl --location \
+            --fail \
+            --show-error \
             --retry 5 \
             --retry-all-errors \
-            --retry-delay 3 \
-            "https://github-readme-activity-graph.vercel.app/graph?username=nawsintabassum&theme=tokyo-night&hide_border=true&area=true" \
-            -o profile/activity-graph.svg
+            --retry-delay 5 \
+            --connect-timeout 30 \
+            --max-time 120 \
+            "https://github-readme-activity-graph.vercel.app/graph?username=nawsintabassum&theme=tokyo-night&hide_border=true&area=true&radius=10" \
+            --output profile/activity-graph.svg
 
-      - name: Check Generated Files
+      - name: Verify Activity Graph SVG
         run: |
-          echo "Checking profile folder:"
-          ls -la profile/
+          if grep -q "<svg" profile/activity-graph.svg; then
+            echo "Activity Graph SVG generated successfully"
+          else
+            echo "Invalid SVG file!"
+            cat profile/activity-graph.svg
+            exit 1
+          fi
+
+      - name: Show Generated Files
+        run: |
+          ls -lh profile/
 
       - name: Commit and Push Files
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           git add profile/
 
-          git status
-
           if git diff --cached --quiet; then
-            echo "No changes detected."
+            echo "No changes to commit"
           else
-            git commit -m "Update profile statistics"
-            git push origin HEAD:main
+            git commit -m "Update GitHub profile statistics"
+            git push
           fi
