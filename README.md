@@ -7,7 +7,7 @@
 Building practical, user-friendly software and learning something new every day.
 
 <p>
-  <a href="https://github.com/nawsintabassum"><img src="https://img.shields.io/badge/GitHub-nawsintabassum-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
+  <a href="https://github.com/nawsintabassum/"><img src="https://img.shields.io/badge/GitHub-nawsintabassum-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
   <a href="https://www.linkedin.com/in/nawsin-tabassum"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <a href="mailto:nawsin2006@gmail.com"><img src="https://img.shields.io/badge/Gmail-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
   <a href="https://nawsin-portfolio.netlify.app/"><img src="https://img.shields.io/badge/Portfolio-Visit-7C3AED?style=for-the-badge&logo=netlify&logoColor=white" alt="Portfolio"/></a>
