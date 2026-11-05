@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="190" viewBox="0 0 495 190">
+<rect x="1" y="1" width="493" height="188" rx="14" fill="#1a1b27" stroke="#414868"/>
+<text x="247.5" y="87.0" text-anchor="middle" fill="#7aa2f7" font-family="Arial,sans-serif" font-size="20" font-weight="700">GitHub Contribution Streak</text>
+<text x="247.5" y="117.0" text-anchor="middle" fill="#a9b1d6" font-family="Arial,sans-serif" font-size="13">Streak data will appear after the first workflow run.</text>
+</svg>
