@@ -1,29 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="495" height="190" viewBox="0 0 495 190">
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="230" viewBox="0 0 495 230">
 <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7aa2f7"/><stop offset="1" stop-color="#bb9af7"/></linearGradient></defs>
-<rect x="1" y="1" width="493" height="188" rx="12" fill="#1a1b27" stroke="#414868"/>
+<rect x="1" y="1" width="493" height="228" rx="12" fill="#1a1b27" stroke="#414868"/>
 <text x="24" y="34" fill="#7aa2f7" font-family="Segoe UI,Arial,sans-serif" font-size="17" font-weight="700">Most Used Languages</text>
-<rect x="25.00" y="66" width="176.68" height="10" rx="4" fill="#7aa2f7"/>
-<rect x="201.68" y="66" width="137.93" height="10" rx="4" fill="#bb9af7"/>
-<rect x="339.60" y="66" width="60.52" height="10" rx="4" fill="#9ece6a"/>
-<rect x="400.12" y="66" width="42.10" height="10" rx="4" fill="#e0af68"/>
-<rect x="442.22" y="66" width="27.60" height="10" rx="4" fill="#f7768e"/>
-<rect x="469.81" y="66" width="1.00" height="10" rx="4" fill="#7dcfff"/>
-<circle cx="29" cy="101" r="4" fill="#7aa2f7"/>
-<text x="41" y="105" fill="#c0caf5" font-family="Segoe UI,Arial,sans-serif" font-size="12">HTML</text>
-<text x="235" y="105" fill="#a9b1d6" text-anchor="end" font-family="Segoe UI,Arial,sans-serif" font-size="12">39.7%</text>
-<circle cx="264" cy="101" r="4" fill="#bb9af7"/>
-<text x="276" y="105" fill="#c0caf5" font-family="Segoe UI,Arial,sans-serif" font-size="12">JavaScript</text>
-<text x="470" y="105" fill="#a9b1d6" text-anchor="end" font-family="Segoe UI,Arial,sans-serif" font-size="12">31.0%</text>
-<circle cx="29" cy="128" r="4" fill="#9ece6a"/>
-<text x="41" y="132" fill="#c0caf5" font-family="Segoe UI,Arial,sans-serif" font-size="12">CSS</text>
-<text x="235" y="132" fill="#a9b1d6" text-anchor="end" font-family="Segoe UI,Arial,sans-serif" font-size="12">13.6%</text>
-<circle cx="264" cy="128" r="4" fill="#e0af68"/>
-<text x="276" y="132" fill="#c0caf5" font-family="Segoe UI,Arial,sans-serif" font-size="12">TypeScript</text>
-<text x="470" y="132" fill="#a9b1d6" text-anchor="end" font-family="Segoe UI,Arial,sans-serif" font-size="12">9.5%</text>
-<circle cx="29" cy="155" r="4" fill="#f7768e"/>
-<text x="41" y="159" fill="#c0caf5" font-family="Segoe UI,Arial,sans-serif" font-size="12">Python</text>
-<text x="235" y="159" fill="#a9b1d6" text-anchor="end" font-family="Segoe UI,Arial,sans-serif" font-size="12">6.2%</text>
-<circle cx="264" cy="155" r="4" fill="#7dcfff"/>
-<text x="276" y="159" fill="#c0caf5" font-family="Segoe UI,Arial,sans-serif" font-size="12">Dockerfile</text>
-<text x="470" y="159" fill="#a9b1d6" text-anchor="end" font-family="Segoe UI,Arial,sans-serif" font-size="12">0.0%</text>
+<rect x="25.00" y="75" width="176.47" height="14" rx="5" fill="#7aa2f7"/>
+<rect x="201.47" y="75" width="137.76" height="14" rx="5" fill="#bb9af7"/>
+<rect x="339.23" y="75" width="60.45" height="14" rx="5" fill="#9ece6a"/>
+<rect x="399.68" y="75" width="42.05" height="14" rx="5" fill="#e0af68"/>
+<rect x="441.72" y="75" width="28.09" height="14" rx="5" fill="#f7768e"/>
+<rect x="469.81" y="75" width="1.00" height="14" rx="5" fill="#7dcfff"/>
+<circle cx="31" cy="121" r="6" fill="#7aa2f7"/>
+<text x="45" y="125" fill="#c0caf5" font-size="12">HTML</text>
+<text x="235" y="125" fill="#a9b1d6" text-anchor="end" font-size="12">39.66%</text>
+<circle cx="266" cy="121" r="6" fill="#bb9af7"/>
+<text x="280" y="125" fill="#c0caf5" font-size="12">JavaScript</text>
+<text x="470" y="125" fill="#a9b1d6" text-anchor="end" font-size="12">30.96%</text>
+<circle cx="31" cy="151" r="6" fill="#9ece6a"/>
+<text x="45" y="155" fill="#c0caf5" font-size="12">CSS</text>
+<text x="235" y="155" fill="#a9b1d6" text-anchor="end" font-size="12">13.58%</text>
+<circle cx="266" cy="151" r="6" fill="#e0af68"/>
+<text x="280" y="155" fill="#c0caf5" font-size="12">TypeScript</text>
+<text x="470" y="155" fill="#a9b1d6" text-anchor="end" font-size="12">9.45%</text>
+<circle cx="31" cy="181" r="6" fill="#f7768e"/>
+<text x="45" y="185" fill="#c0caf5" font-size="12">Python</text>
+<text x="235" y="185" fill="#a9b1d6" text-anchor="end" font-size="12">6.31%</text>
+<circle cx="266" cy="181" r="6" fill="#7dcfff"/>
+<text x="280" y="185" fill="#c0caf5" font-size="12">Dockerfile</text>
+<text x="470" y="185" fill="#a9b1d6" text-anchor="end" font-size="12">0.04%</text>
 </svg>
