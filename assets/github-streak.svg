@@ -1,5 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="495" height="190" viewBox="0 0 495 190">
-<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7aa2f7"/><stop offset="1" stop-color="#bb9af7"/></linearGradient></defs>
+<defs>
+<linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#7aa2f7"/>
+<stop offset="1" stop-color="#bb9af7"/>
+</linearGradient>
+<linearGradient id="area" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#7aa2f7" stop-opacity="0.4"/>
+<stop offset="1" stop-color="#bb9af7" stop-opacity="0.02"/>
+</linearGradient>
+</defs>
 <rect x="1" y="1" width="493" height="188" rx="12" fill="#1a1b27" stroke="#414868"/>
 <text x="24" y="34" fill="#7aa2f7" font-family="Segoe UI,Arial,sans-serif" font-size="17" font-weight="700">GitHub Contribution Streak</text>
 <text x="55" y="92" fill="#a9b1d6" font-family="Segoe UI,Arial,sans-serif" font-size="12">CURRENT STREAK</text>

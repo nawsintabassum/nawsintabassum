@@ -1,23 +1,38 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="495" height="230" viewBox="0 0 495 230">
-<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7aa2f7"/><stop offset="1" stop-color="#bb9af7"/></linearGradient></defs>
+<defs>
+<linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#7aa2f7"/>
+<stop offset="1" stop-color="#bb9af7"/>
+</linearGradient>
+<linearGradient id="area" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#7aa2f7" stop-opacity="0.4"/>
+<stop offset="1" stop-color="#bb9af7" stop-opacity="0.02"/>
+</linearGradient>
+</defs>
 <rect x="1" y="1" width="493" height="228" rx="12" fill="#1a1b27" stroke="#414868"/>
 <text x="24" y="34" fill="#7aa2f7" font-family="Segoe UI,Arial,sans-serif" font-size="17" font-weight="700">nawsintabassum&#x27;s GitHub Stats</text>
-<circle cx="33" cy="80" r="6" fill="#7aa2f7"/>
-<text x="47" y="85" fill="#c0caf5" font-size="11" font-weight="600">TOTAL CONTRIBUTIONS</text>
-<text x="47" y="115" fill="#7aa2f7" font-size="23" font-weight="700">173</text>
-<circle cx="188" cy="80" r="6" fill="#bb9af7"/>
-<text x="202" y="85" fill="#c0caf5" font-size="11" font-weight="600">PUBLIC REPOSITORIES</text>
-<text x="202" y="115" fill="#bb9af7" font-size="23" font-weight="700">17</text>
-<circle cx="343" cy="80" r="6" fill="#9ece6a"/>
-<text x="357" y="85" fill="#c0caf5" font-size="11" font-weight="600">TOTAL STARS</text>
-<text x="357" y="115" fill="#9ece6a" font-size="23" font-weight="700">0</text>
-<circle cx="33" cy="160" r="6" fill="#7aa2f7"/>
-<text x="47" y="165" fill="#c0caf5" font-size="11" font-weight="600">COMMITS</text>
-<text x="47" y="195" fill="#7aa2f7" font-size="23" font-weight="700">155</text>
-<circle cx="188" cy="160" r="6" fill="#bb9af7"/>
-<text x="202" y="165" fill="#c0caf5" font-size="11" font-weight="600">PULL REQUESTS</text>
-<text x="202" y="195" fill="#bb9af7" font-size="23" font-weight="700">0</text>
-<circle cx="343" cy="160" r="6" fill="#9ece6a"/>
-<text x="357" y="165" fill="#c0caf5" font-size="11" font-weight="600">ISSUES</text>
-<text x="357" y="195" fill="#9ece6a" font-size="23" font-weight="700">0</text>
+<rect x="20" y="55" width="145" height="70" rx="9" fill="#24283b" stroke="#414868"/>
+<circle cx="33" cy="74" r="4" fill="#7aa2f7"/>
+<text x="44" y="78" fill="#a9b1d6" font-family="Segoe UI,Arial,sans-serif" font-size="9" font-weight="600">CONTRIBUTIONS</text>
+<text x="33" y="108" fill="#7aa2f7" font-family="Segoe UI,Arial,sans-serif" font-size="21" font-weight="700">175</text>
+<rect x="175" y="55" width="145" height="70" rx="9" fill="#24283b" stroke="#414868"/>
+<circle cx="188" cy="74" r="4" fill="#bb9af7"/>
+<text x="199" y="78" fill="#a9b1d6" font-family="Segoe UI,Arial,sans-serif" font-size="9" font-weight="600">REPOSITORIES</text>
+<text x="188" y="108" fill="#bb9af7" font-family="Segoe UI,Arial,sans-serif" font-size="21" font-weight="700">17</text>
+<rect x="330" y="55" width="145" height="70" rx="9" fill="#24283b" stroke="#414868"/>
+<circle cx="343" cy="74" r="4" fill="#9ece6a"/>
+<text x="354" y="78" fill="#a9b1d6" font-family="Segoe UI,Arial,sans-serif" font-size="9" font-weight="600">TOTAL STARS</text>
+<text x="343" y="108" fill="#9ece6a" font-family="Segoe UI,Arial,sans-serif" font-size="21" font-weight="700">0</text>
+<rect x="20" y="140" width="145" height="70" rx="9" fill="#24283b" stroke="#414868"/>
+<circle cx="33" cy="159" r="4" fill="#7aa2f7"/>
+<text x="44" y="163" fill="#a9b1d6" font-family="Segoe UI,Arial,sans-serif" font-size="9" font-weight="600">COMMITS</text>
+<text x="33" y="193" fill="#7aa2f7" font-family="Segoe UI,Arial,sans-serif" font-size="21" font-weight="700">157</text>
+<rect x="175" y="140" width="145" height="70" rx="9" fill="#24283b" stroke="#414868"/>
+<circle cx="188" cy="159" r="4" fill="#bb9af7"/>
+<text x="199" y="163" fill="#a9b1d6" font-family="Segoe UI,Arial,sans-serif" font-size="9" font-weight="600">PULL REQUESTS</text>
+<text x="188" y="193" fill="#bb9af7" font-family="Segoe UI,Arial,sans-serif" font-size="21" font-weight="700">0</text>
+<rect x="330" y="140" width="145" height="70" rx="9" fill="#24283b" stroke="#414868"/>
+<circle cx="343" cy="159" r="4" fill="#9ece6a"/>
+<text x="354" y="163" fill="#a9b1d6" font-family="Segoe UI,Arial,sans-serif" font-size="9" font-weight="600">ISSUES</text>
+<text x="343" y="193" fill="#9ece6a" font-family="Segoe UI,Arial,sans-serif" font-size="21" font-weight="700">0</text>
 </svg>
