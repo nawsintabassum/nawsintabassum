@@ -1,38 +1,101 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="495" height="230" viewBox="0 0 495 230">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="610" viewBox="0 0 1000 610">
 <defs>
-<linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
-<stop offset="0" stop-color="#7aa2f7"/>
-<stop offset="1" stop-color="#bb9af7"/>
-</linearGradient>
-<linearGradient id="area" x1="0" y1="0" x2="0" y2="1">
-<stop offset="0" stop-color="#7aa2f7" stop-opacity="0.4"/>
-<stop offset="1" stop-color="#bb9af7" stop-opacity="0.02"/>
-</linearGradient>
+<linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#24283b"/><stop offset="1" stop-color="#1a1b27"/></linearGradient>
+<linearGradient id="glow" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#bb9af7"/><stop offset="1" stop-color="#7aa2f7"/></linearGradient>
+<linearGradient id="bar" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7dcfff"/><stop offset="1" stop-color="#bb9af7"/></linearGradient>
 </defs>
-<rect x="1" y="1" width="493" height="228" rx="12" fill="#1a1b27" stroke="#414868"/>
-<text x="24" y="34" fill="#7aa2f7" font-family="Segoe UI,Arial,sans-serif" font-size="17" font-weight="700">nawsintabassum&#x27;s GitHub Stats</text>
-<rect x="20" y="55" width="145" height="70" rx="9" fill="#24283b" stroke="#414868"/>
-<circle cx="33" cy="74" r="4" fill="#7aa2f7"/>
-<text x="44" y="78" fill="#a9b1d6" font-family="Segoe UI,Arial,sans-serif" font-size="9" font-weight="600">CONTRIBUTIONS</text>
-<text x="33" y="108" fill="#7aa2f7" font-family="Segoe UI,Arial,sans-serif" font-size="21" font-weight="700">175</text>
-<rect x="175" y="55" width="145" height="70" rx="9" fill="#24283b" stroke="#414868"/>
-<circle cx="188" cy="74" r="4" fill="#bb9af7"/>
-<text x="199" y="78" fill="#a9b1d6" font-family="Segoe UI,Arial,sans-serif" font-size="9" font-weight="600">REPOSITORIES</text>
-<text x="188" y="108" fill="#bb9af7" font-family="Segoe UI,Arial,sans-serif" font-size="21" font-weight="700">17</text>
-<rect x="330" y="55" width="145" height="70" rx="9" fill="#24283b" stroke="#414868"/>
-<circle cx="343" cy="74" r="4" fill="#9ece6a"/>
-<text x="354" y="78" fill="#a9b1d6" font-family="Segoe UI,Arial,sans-serif" font-size="9" font-weight="600">TOTAL STARS</text>
-<text x="343" y="108" fill="#9ece6a" font-family="Segoe UI,Arial,sans-serif" font-size="21" font-weight="700">0</text>
-<rect x="20" y="140" width="145" height="70" rx="9" fill="#24283b" stroke="#414868"/>
-<circle cx="33" cy="159" r="4" fill="#7aa2f7"/>
-<text x="44" y="163" fill="#a9b1d6" font-family="Segoe UI,Arial,sans-serif" font-size="9" font-weight="600">COMMITS</text>
-<text x="33" y="193" fill="#7aa2f7" font-family="Segoe UI,Arial,sans-serif" font-size="21" font-weight="700">157</text>
-<rect x="175" y="140" width="145" height="70" rx="9" fill="#24283b" stroke="#414868"/>
-<circle cx="188" cy="159" r="4" fill="#bb9af7"/>
-<text x="199" y="163" fill="#a9b1d6" font-family="Segoe UI,Arial,sans-serif" font-size="9" font-weight="600">PULL REQUESTS</text>
-<text x="188" y="193" fill="#bb9af7" font-family="Segoe UI,Arial,sans-serif" font-size="21" font-weight="700">0</text>
-<rect x="330" y="140" width="145" height="70" rx="9" fill="#24283b" stroke="#414868"/>
-<circle cx="343" cy="159" r="4" fill="#9ece6a"/>
-<text x="354" y="163" fill="#a9b1d6" font-family="Segoe UI,Arial,sans-serif" font-size="9" font-weight="600">ISSUES</text>
-<text x="343" y="193" fill="#9ece6a" font-family="Segoe UI,Arial,sans-serif" font-size="21" font-weight="700">0</text>
+<rect x="1" y="1" width="998" height="608" rx="18" fill="url(#panel)" stroke="#414868"/>
+<text x="28" y="39" fill="#c0caf5" font-family="Segoe UI,Arial,sans-serif" font-size="19" font-weight="700">GitHub Stats</text>
+<rect x="25" y="62" width="300" height="112" rx="13" fill="#24283b" stroke="#414868"/>
+<text x="45" y="88" fill="#a9b1d6" font-size="11" font-family="Segoe UI,Arial,sans-serif">Total contributions</text>
+<text x="45" y="143" fill="#7aa2f7" font-size="34" font-weight="700" font-family="Segoe UI,Arial,sans-serif">176</text>
+<text x="130" y="143" fill="#a9b1d6" font-size="11" font-family="Segoe UI,Arial,sans-serif">in the last year</text>
+<rect x="345" y="62" width="300" height="112" rx="13" fill="#24283b" stroke="#414868"/>
+<text x="365" y="88" fill="#a9b1d6" font-size="11" font-family="Segoe UI,Arial,sans-serif">Current streak</text>
+<circle cx="407" cy="129" r="27" fill="none" stroke="#414868" stroke-width="7"/>
+<circle cx="407" cy="129" r="27" fill="none" stroke="url(#glow)" stroke-width="7" stroke-dasharray="145 170" stroke-linecap="round" transform="rotate(-90 407 129)"/>
+<text x="407" y="136" text-anchor="middle" fill="#c0caf5" font-size="20" font-weight="700" font-family="Segoe UI,Arial,sans-serif">1</text>
+<text x="450" y="126" fill="#c0caf5" font-size="13" font-weight="700" font-family="Segoe UI,Arial,sans-serif">Current streak</text>
+<text x="450" y="145" fill="#a9b1d6" font-size="10" font-family="Segoe UI,Arial,sans-serif">days</text>
+<rect x="665" y="62" width="300" height="112" rx="13" fill="#24283b" stroke="#414868"/>
+<text x="685" y="88" fill="#a9b1d6" font-size="11" font-family="Segoe UI,Arial,sans-serif">Longest streak</text>
+<text x="685" y="143" fill="#9ece6a" font-size="34" font-weight="700" font-family="Segoe UI,Arial,sans-serif">3</text>
+<text x="770" y="143" fill="#a9b1d6" font-size="11" font-family="Segoe UI,Arial,sans-serif">days</text>
+<rect x="25" y="190" width="950" height="155" rx="13" fill="#24283b" stroke="#414868"/>
+<text x="45" y="216" fill="#c0caf5" font-size="13" font-weight="700" font-family="Segoe UI,Arial,sans-serif">Contributions by month</text>
+<rect x="55.0" y="313.0" width="58.6" height="3.0" rx="4" fill="url(#bar)"/>
+<text x="84.3" y="332" text-anchor="middle" fill="#a9b1d6" font-size="8" font-family="Segoe UI,Arial,sans-serif">12</text>
+<rect x="130.6" y="313.0" width="58.6" height="3.0" rx="4" fill="url(#bar)"/>
+<text x="159.9" y="332" text-anchor="middle" fill="#a9b1d6" font-size="8" font-family="Segoe UI,Arial,sans-serif">01</text>
+<rect x="206.2" y="313.0" width="58.6" height="3.0" rx="4" fill="url(#bar)"/>
+<text x="235.5" y="332" text-anchor="middle" fill="#a9b1d6" font-size="8" font-family="Segoe UI,Arial,sans-serif">02</text>
+<rect x="281.8" y="313.0" width="58.6" height="3.0" rx="4" fill="url(#bar)"/>
+<text x="311.0" y="332" text-anchor="middle" fill="#a9b1d6" font-size="8" font-family="Segoe UI,Arial,sans-serif">03</text>
+<rect x="357.3" y="313.0" width="58.6" height="3.0" rx="4" fill="url(#bar)"/>
+<text x="386.6" y="332" text-anchor="middle" fill="#a9b1d6" font-size="8" font-family="Segoe UI,Arial,sans-serif">04</text>
+<rect x="432.9" y="313.0" width="58.6" height="3.0" rx="4" fill="url(#bar)"/>
+<text x="462.2" y="332" text-anchor="middle" fill="#a9b1d6" font-size="8" font-family="Segoe UI,Arial,sans-serif">05</text>
+<rect x="508.5" y="313.0" width="58.6" height="3.0" rx="4" fill="url(#bar)"/>
+<text x="537.8" y="332" text-anchor="middle" fill="#a9b1d6" font-size="8" font-family="Segoe UI,Arial,sans-serif">06</text>
+<rect x="584.1" y="313.0" width="58.6" height="3.0" rx="4" fill="url(#bar)"/>
+<text x="613.4" y="332" text-anchor="middle" fill="#a9b1d6" font-size="8" font-family="Segoe UI,Arial,sans-serif">07</text>
+<rect x="659.7" y="238.0" width="58.6" height="78.0" rx="4" fill="url(#bar)"/>
+<text x="689.0" y="332" text-anchor="middle" fill="#a9b1d6" font-size="8" font-family="Segoe UI,Arial,sans-serif">08</text>
+<rect x="735.3" y="283.3" width="58.6" height="32.7" rx="4" fill="url(#bar)"/>
+<text x="764.5" y="332" text-anchor="middle" fill="#a9b1d6" font-size="8" font-family="Segoe UI,Arial,sans-serif">09</text>
+<rect x="810.8" y="262.2" width="58.6" height="53.8" rx="4" fill="url(#bar)"/>
+<text x="840.1" y="332" text-anchor="middle" fill="#a9b1d6" font-size="8" font-family="Segoe UI,Arial,sans-serif">10</text>
+<rect x="886.4" y="297.0" width="58.6" height="19.0" rx="4" fill="url(#bar)"/>
+<text x="915.7" y="332" text-anchor="middle" fill="#a9b1d6" font-size="8" font-family="Segoe UI,Arial,sans-serif">11</text>
+<rect x="25" y="360" width="465" height="225" rx="13" fill="#24283b" stroke="#414868"/>
+<rect x="510" y="360" width="465" height="225" rx="13" fill="#24283b" stroke="#414868"/>
+<text x="45" y="389" fill="#c0caf5" font-size="13" font-weight="700" font-family="Segoe UI,Arial,sans-serif">Top languages by repository</text>
+<text x="530" y="389" fill="#c0caf5" font-size="13" font-weight="700" font-family="Segoe UI,Arial,sans-serif">Top languages by code size</text>
+<circle cx="365" cy="485" r="65" fill="none" stroke="#414868" stroke-width="17"/>
+<circle cx="365" cy="485" r="65" fill="none" stroke="#7aa2f7" stroke-width="17" stroke-dasharray="145.86 262.55" stroke-dashoffset="0.00" transform="rotate(-90 365 485)"/>
+<circle cx="365" cy="485" r="65" fill="none" stroke="#bb9af7" stroke-width="17" stroke-dasharray="126.41 282.00" stroke-dashoffset="-145.86" transform="rotate(-90 365 485)"/>
+<circle cx="365" cy="485" r="65" fill="none" stroke="#9ece6a" stroke-width="17" stroke-dasharray="77.79 330.62" stroke-dashoffset="-272.27" transform="rotate(-90 365 485)"/>
+<circle cx="365" cy="485" r="65" fill="none" stroke="#e0af68" stroke-width="17" stroke-dasharray="38.90 369.51" stroke-dashoffset="-350.06" transform="rotate(-90 365 485)"/>
+<circle cx="365" cy="485" r="65" fill="none" stroke="#f7768e" stroke-width="17" stroke-dasharray="19.45 388.96" stroke-dashoffset="-388.96" transform="rotate(-90 365 485)"/>
+<text x="365" y="483" text-anchor="middle" fill="#c0caf5" font-size="23" font-weight="700" font-family="Segoe UI,Arial,sans-serif">5</text>
+<text x="365" y="503" text-anchor="middle" fill="#a9b1d6" font-size="9" font-family="Segoe UI,Arial,sans-serif">LANGUAGES</text>
+<circle cx="53" cy="434" r="4" fill="#7aa2f7"/>
+<text x="65" y="438" fill="#c0caf5" font-size="11" font-family="Segoe UI,Arial,sans-serif">HTML</text>
+<text x="180" y="438" fill="#a9b1d6" font-size="10" text-anchor="end" font-family="Segoe UI,Arial,sans-serif">35.7%</text>
+<circle cx="53" cy="459" r="4" fill="#bb9af7"/>
+<text x="65" y="463" fill="#c0caf5" font-size="11" font-family="Segoe UI,Arial,sans-serif">JavaScript</text>
+<text x="180" y="463" fill="#a9b1d6" font-size="10" text-anchor="end" font-family="Segoe UI,Arial,sans-serif">31.0%</text>
+<circle cx="53" cy="484" r="4" fill="#9ece6a"/>
+<text x="65" y="488" fill="#c0caf5" font-size="11" font-family="Segoe UI,Arial,sans-serif">CSS</text>
+<text x="180" y="488" fill="#a9b1d6" font-size="10" text-anchor="end" font-family="Segoe UI,Arial,sans-serif">19.0%</text>
+<circle cx="53" cy="509" r="4" fill="#e0af68"/>
+<text x="65" y="513" fill="#c0caf5" font-size="11" font-family="Segoe UI,Arial,sans-serif">Python</text>
+<text x="180" y="513" fill="#a9b1d6" font-size="10" text-anchor="end" font-family="Segoe UI,Arial,sans-serif">9.5%</text>
+<circle cx="53" cy="534" r="4" fill="#f7768e"/>
+<text x="65" y="538" fill="#c0caf5" font-size="11" font-family="Segoe UI,Arial,sans-serif">TypeScript</text>
+<text x="180" y="538" fill="#a9b1d6" font-size="10" text-anchor="end" font-family="Segoe UI,Arial,sans-serif">4.8%</text>
+<circle cx="850" cy="485" r="65" fill="none" stroke="#414868" stroke-width="17"/>
+<circle cx="850" cy="485" r="65" fill="none" stroke="#7aa2f7" stroke-width="17" stroke-dasharray="161.20 247.20" stroke-dashoffset="0.00" transform="rotate(-90 850 485)"/>
+<circle cx="850" cy="485" r="65" fill="none" stroke="#bb9af7" stroke-width="17" stroke-dasharray="125.85 282.56" stroke-dashoffset="-161.20" transform="rotate(-90 850 485)"/>
+<circle cx="850" cy="485" r="65" fill="none" stroke="#9ece6a" stroke-width="17" stroke-dasharray="55.22 353.19" stroke-dashoffset="-287.05" transform="rotate(-90 850 485)"/>
+<circle cx="850" cy="485" r="65" fill="none" stroke="#e0af68" stroke-width="17" stroke-dasharray="38.41 370.00" stroke-dashoffset="-342.27" transform="rotate(-90 850 485)"/>
+<circle cx="850" cy="485" r="65" fill="none" stroke="#f7768e" stroke-width="17" stroke-dasharray="27.73 380.68" stroke-dashoffset="-380.68" transform="rotate(-90 850 485)"/>
+<text x="850" y="483" text-anchor="middle" fill="#c0caf5" font-size="23" font-weight="700" font-family="Segoe UI,Arial,sans-serif">5</text>
+<text x="850" y="503" text-anchor="middle" fill="#a9b1d6" font-size="9" font-family="Segoe UI,Arial,sans-serif">LANGUAGES</text>
+<circle cx="538" cy="434" r="4" fill="#7aa2f7"/>
+<text x="550" y="438" fill="#c0caf5" font-size="11" font-family="Segoe UI,Arial,sans-serif">HTML</text>
+<text x="665" y="438" fill="#a9b1d6" font-size="10" text-anchor="end" font-family="Segoe UI,Arial,sans-serif">39.5%</text>
+<circle cx="538" cy="459" r="4" fill="#bb9af7"/>
+<text x="550" y="463" fill="#c0caf5" font-size="11" font-family="Segoe UI,Arial,sans-serif">JavaScript</text>
+<text x="665" y="463" fill="#a9b1d6" font-size="10" text-anchor="end" font-family="Segoe UI,Arial,sans-serif">30.8%</text>
+<circle cx="538" cy="484" r="4" fill="#9ece6a"/>
+<text x="550" y="488" fill="#c0caf5" font-size="11" font-family="Segoe UI,Arial,sans-serif">CSS</text>
+<text x="665" y="488" fill="#a9b1d6" font-size="10" text-anchor="end" font-family="Segoe UI,Arial,sans-serif">13.5%</text>
+<circle cx="538" cy="509" r="4" fill="#e0af68"/>
+<text x="550" y="513" fill="#c0caf5" font-size="11" font-family="Segoe UI,Arial,sans-serif">TypeScript</text>
+<text x="665" y="513" fill="#a9b1d6" font-size="10" text-anchor="end" font-family="Segoe UI,Arial,sans-serif">9.4%</text>
+<circle cx="538" cy="534" r="4" fill="#f7768e"/>
+<text x="550" y="538" fill="#c0caf5" font-size="11" font-family="Segoe UI,Arial,sans-serif">Python</text>
+<text x="665" y="538" fill="#a9b1d6" font-size="10" text-anchor="end" font-family="Segoe UI,Arial,sans-serif">6.8%</text>
+<text x="28" y="600" fill="#a9b1d6" font-size="9" font-family="Segoe UI,Arial,sans-serif">Public repositories: 17  •  Stars earned: 0  •  Commits: 158</text>
 </svg>
