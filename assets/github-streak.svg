@@ -12,7 +12,7 @@
 <rect x="1" y="1" width="493" height="188" rx="12" fill="#1a1b27" stroke="#414868"/>
 <text x="24" y="34" fill="#7aa2f7" font-family="Segoe UI,Arial,sans-serif" font-size="17" font-weight="700">GitHub Contribution Streak</text>
 <text x="55" y="92" fill="#a9b1d6" font-family="Segoe UI,Arial,sans-serif" font-size="12">CURRENT STREAK</text>
-<text x="55" y="121" fill="#7aa2f7" font-family="Segoe UI,Arial,sans-serif" font-size="27" font-weight="700">2 days</text>
+<text x="55" y="121" fill="#7aa2f7" font-family="Segoe UI,Arial,sans-serif" font-size="27" font-weight="700">0 days</text>
 <text x="275" y="92" fill="#a9b1d6" font-family="Segoe UI,Arial,sans-serif" font-size="12">LONGEST STREAK</text>
 <text x="275" y="121" fill="#bb9af7" font-family="Segoe UI,Arial,sans-serif" font-size="27" font-weight="700">3 days</text>
 <text x="55" y="157" fill="#a9b1d6" font-family="Segoe UI,Arial,sans-serif" font-size="12">Based on your GitHub contribution calendar (last 12 months).</text>
