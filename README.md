@@ -84,31 +84,12 @@ Academic and campus-focused web projects exploring practical solutions for stude
 - 🏗️ Software Engineering principles and best practices
 
 ---
+
 ## 📊 GitHub Statistics
 
 <div align="center">
-  <table>
-    <tr>
-      <td width="50%" align="center">
-        <img src="./assets/github-stats.svg" width="100%" alt="GitHub Stats"/>
-      </td>
-      <td width="50%" align="center">
-        <img src="./assets/contributions.svg" width="100%" alt="Contributions by Hours"/>
-      </td>
-    </tr>
-  </table>
-</div>
-
-## 🔥 Top Languages by Commits
-
-<div align="center">
-  <img src="./assets/top-langs-commit.svg" width="65%" alt="Top Languages by Commits"/>
-</div>
-
-## 💻 Most Used Programming Languages
-
-<div align="center">
-  <img src="./assets/top-langs.svg" width="65%" alt="Top Languages by Repository"/>
+  <img src="./assets/github-stats.svg" width="49%" alt="Nawsin's GitHub Statistics"/>
+  <img src="./assets/top-langs.svg" width="49%" alt="Most Used Programming Languages"/>
 </div>
 
 ## 🔥 Contribution Streak
@@ -117,21 +98,17 @@ Academic and campus-focused web projects exploring practical solutions for stude
   <img src="./assets/github-streak.svg" width="75%" alt="GitHub Contribution Streak"/>
 </div>
 
-## 📈 GitHub Activity
-
-<p align="center">
-  <img src="./activity.svg" width="100%" alt="GitHub Activity Graph"/>
-</p>
-
-
-
 ## 📅 Contribution Overview
 
 <div align="center">
   <img src="./assets/contributions.svg" width="100%" alt="Nawsin's GitHub Contributions"/>
 </div>
 
+## 📈 GitHub Activity
 
+<p align="center">
+  <img src="./activity.svg" width="100%" alt="Nawsin's GitHub Activity Graph"/>
+</p>
 
 ## 🏆 GitHub Trophies
 
