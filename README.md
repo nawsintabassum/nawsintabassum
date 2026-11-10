@@ -7,10 +7,18 @@
 Building practical, user-friendly software and learning something new every day.
 
 <p>
-  <a href="https://github.com/nawsintabassum/"><img src="https://img.shields.io/badge/GitHub-nawsintabassum-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
-  <a href="https://www.linkedin.com/in/nawsin-tabassum"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="mailto:nawsin2006@gmail.com"><img src="https://img.shields.io/badge/Gmail-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-  <a href="https://nawsin-portfolio.netlify.app/"><img src="https://img.shields.io/badge/Portfolio-Visit-7C3AED?style=for-the-badge&logo=netlify&logoColor=white" alt="Portfolio"/></a>
+  <a href="https://github.com/nawsintabassum">
+    <img src="https://img.shields.io/badge/GitHub-nawsintabassum-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  </a>
+  <a href="https://www.linkedin.com/in/nawsin-tabassum">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="mailto:nawsin2006@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+  </a>
+  <a href="https://nawsin-portfolio.netlify.app/">
+    <img src="https://img.shields.io/badge/Portfolio-Visit-7C3AED?style=for-the-badge&logo=netlify&logoColor=white" alt="Portfolio"/>
+  </a>
 </p>
 
 </div>
@@ -28,49 +36,73 @@ I am a Software Engineering student at **Daffodil International University (DIU)
 - 🧠 Strengthening programming, problem-solving, and software engineering fundamentals
 - 🤝 Open to collaboration, internships, and learning opportunities
 
+---
+
 ## 🛠️ Skills & Technologies
 
-### 💻 Languages & Web
-<p><img src="https://skillicons.dev/icons?i=js,ts,html,css,python" alt="JavaScript, TypeScript, HTML, CSS, Python"/></p>
+### 💻 Languages
+<p>
+  <img src="https://skillicons.dev/icons?i=js,ts,html,css,python" alt="JavaScript, TypeScript, HTML, CSS, Python"/>
+</p>
 
 ### 🌐 Frontend
-<p><img src="https://skillicons.dev/icons?i=react,nextjs,tailwind" alt="React, Next.js, Tailwind CSS"/></p>
+<p>
+  <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind" alt="React, Next.js, Tailwind CSS"/>
+</p>
 
 ### ⚙️ Backend & Database
-<p><img src="https://skillicons.dev/icons?i=nodejs,express,prisma,mysql,postgres" alt="Node.js, Express, Prisma, MySQL, PostgreSQL"/></p>
+<p>
+  <img src="https://skillicons.dev/icons?i=nodejs,express,prisma,mysql,postgres" alt="Node.js, Express, Prisma, MySQL, PostgreSQL"/>
+</p>
 
 ### 🔧 Tools
-<p><img src="https://skillicons.dev/icons?i=git,github,vscode,figma" alt="Git, GitHub, VS Code, Figma"/></p>
+<p>
+  <img src="https://skillicons.dev/icons?i=git,github,vscode,figma" alt="Git, GitHub, VS Code, Figma"/>
+</p>
 
 ---
 
-## 🚀 Featured Projects
+<h2 align="center">🚀 Featured Projects</h2>
+<p align="center">A showcase of my projects and development journey.</p>
 
-### 🥗 NutriCare — Personalized Nutrition Planner
-A personalized nutrition planning system designed to help users manage dietary preferences and receive suitable nutrition recommendations. **Currently in development.**
-
-**Focus:** Personalized Nutrition · User Experience · Data Management
-
-**Technologies:** TypeScript · JavaScript · Tailwind CSS · SQL · Prisma ORM
-
-### 📚 BookVerse — Simple E-Commerce Book Store
-A simple online bookstore experience where users can browse books through a clean and easy-to-use interface.
-
-**Focus:** E-Commerce · Product Browsing · Responsive Web Design
-
-**Technologies:** HTML · CSS · JavaScript
-
-### 💬 Real-Time Communication App
-A web application concept focused on enabling instant communication and interactive user experiences.
-
-**Focus:** Real-Time Interaction · Web Application Development
-
-**Technologies:** JavaScript · Web Technologies
-
-### 🎓 CampusConnect & UniSphere
-Academic and campus-focused web projects exploring practical solutions for student communities.
-
-**Technologies:** HTML · CSS · JavaScript
+<table>
+<tr>
+<td width="50%" valign="top">
+<h3>🥗 NutriCare</h3>
+<p><b>Personalized Nutrition Planner</b></p>
+<p>A personalized nutrition planning system designed to help users manage dietary preferences and receive suitable nutrition recommendations. <b>Currently in development.</b></p>
+<p><b>Focus:</b> Personalized Nutrition · User Experience · Data Management</p>
+<p><b>Technologies:</b></p>
+<img src="https://skillicons.dev/icons?i=ts,js,tailwind,prisma" height="30" alt="TypeScript JavaScript Tailwind Prisma"/>
+</td>
+<td width="50%" valign="top">
+<h3>📚 BookVerse</h3>
+<p><b>Simple E-Commerce Book Store</b></p>
+<p>A simple online bookstore experience where users can browse books through a clean and easy-to-use interface.</p>
+<p><b>Focus:</b> E-Commerce · Product Browsing · Responsive Web Design</p>
+<p><b>Technologies:</b></p>
+<img src="https://skillicons.dev/icons?i=html,css,js" height="30" alt="HTML CSS JavaScript"/>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h3>💬 Real-Time Communication App</h3>
+<p><b>Interactive Communication Platform</b></p>
+<p>A web application concept focused on enabling instant communication and interactive user experiences.</p>
+<p><b>Focus:</b> Real-Time Interaction · Web Application Development</p>
+<p><b>Technologies:</b></p>
+<img src="https://skillicons.dev/icons?i=js,html,css" height="30" alt="JavaScript HTML CSS"/>
+</td>
+<td width="50%" valign="top">
+<h3>🎓 CampusConnect & UniSphere</h3>
+<p><b>Academic & Campus Platform</b></p>
+<p>Academic and campus-focused web projects exploring practical solutions for student communities.</p>
+<p><b>Focus:</b> Student Community · Academic Solutions</p>
+<p><b>Technologies:</b></p>
+<img src="https://skillicons.dev/icons?i=html,css,js" height="30" alt="HTML CSS JavaScript"/>
+</td>
+</tr>
+</table>
 
 ---
 
@@ -84,37 +116,67 @@ Academic and campus-focused web projects exploring practical solutions for stude
 - 🏗️ Software Engineering principles and best practices
 
 ---
+
 ## 📊 GitHub Statistics
 
 <div align="center">
-  <img src="./assets/github-stats.svg" width="49%" alt="Nawsin's GitHub Statistics"/>
-  <img src="./assets/top-langs.svg" width="49%" alt="Most Used Programming Languages"/>
+  <table>
+    <tr>
+      <td width="50%" align="center">
+        <img src="./assets/github-stats.svg" width="100%" alt="Nawsin's GitHub Statistics"/>
+      </td>
+      <td width="50%" align="center">
+        <img src="./assets/commits-by-hours.svg" width="100%" alt="Commits by Hours"/>
+      </td>
+    </tr>
+  </table>
 </div>
 
-## 🔥 Contribution Streak
+<h3 align="center">🔥 Top Languages by Commits (All Time)</h3>
 
 <div align="center">
-  <img src="./assets/github-streak.svg" width="75%" alt="GitHub Contribution Streak"/>
+  <img src="./assets/top-langs-commits.svg" width="49%" alt="Top Languages by Commits"/>
 </div>
 
-## 📅 Contribution Overview
+<h3 align="center">💻 Most Used Programming Languages</h3>
+
+<div align="center">
+  <img src="./assets/top-langs.svg" width="49%" alt="Top Languages by Repository"/>
+</div>
+
+---
+
+## 🔥 GitHub Contribution Streak
+
+<div align="center">
+  <img src="./assets/github-streak.svg" width="85%" alt="GitHub Contribution Streak"/>
+</div>
+
+## 📅 GitHub Contributions
 
 <div align="center">
   <img src="./assets/contributions.svg" width="100%" alt="Nawsin's GitHub Contributions"/>
 </div>
+
+---
 
 ## 📈 GitHub Activity
 
 <p align="center">
   <img src="./activity.svg" width="100%" alt="Nawsin's GitHub Activity Graph"/>
 </p>
+
+---
+
 ## 🏆 GitHub Trophies
 
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=nawsintabassum&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&row=1&column=7" width="100%" alt="Nawsin's GitHub Trophies"/>
-</div>
+<p align="center">
+  <img src="https://github-profile-trophy-liard-delta.vercel.app/?username=nawsintabassum&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&column=7" alt="Nawsin's GitHub Trophies" width="100%"/>
+</p>
 
-## 🐍 Contribution Snake
+---
+
+<h2 align="center">🐍 Contribution Snake</h2>
 
 <p align="center">
   <picture>
@@ -133,6 +195,7 @@ Academic and campus-focused web projects exploring practical solutions for stude
 - 🤖 Explore AI and Machine Learning
 - 🧩 Improve problem-solving and programming skills
 - 🌱 Contribute to open-source projects and keep learning
+- 💼 Prepare for internship and entry-level software engineering opportunities
 
 ## 💡 Developer Mindset
 
@@ -140,14 +203,22 @@ Academic and campus-focused web projects exploring practical solutions for stude
 
 I believe consistent learning, hands-on practice, and curiosity are the foundation of becoming a better developer.
 
+---
+
 ## 🤝 Let's Connect
 
 <div align="center">
-  <a href="https://www.linkedin.com/in/nawsin-tabassum"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="mailto:nawsin2006@gmail.com"><img src="https://img.shields.io/badge/Gmail-Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-  <a href="https://nawsin-portfolio.netlify.app/"><img src="https://img.shields.io/badge/Portfolio-Visit-7C3AED?style=for-the-badge&logo=netlify&logoColor=white" alt="Portfolio"/></a>
-  <br/><br/>
-  <img src="https://komarev.com/ghpvc/?username=nawsintabassum&label=Profile%20Views&color=7aa2f7&style=flat" alt="Profile views"/>
-  <br/><br/>
-  ⭐ Thanks for visiting my profile!
+
+<a href="https://www.linkedin.com/in/nawsin-tabassum"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+<a href="mailto:nawsin2006@gmail.com"><img src="https://img.shields.io/badge/Gmail-Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+<a href="https://nawsin-portfolio.netlify.app/"><img src="https://img.shields.io/badge/Portfolio-Visit-7C3AED?style=for-the-badge&logo=netlify&logoColor=white" alt="Portfolio"/></a>
+
+<br><br>
+
+<img src="https://komarev.com/ghpvc/?username=nawsintabassum&label=Profile%20Views&color=7aa2f7&style=flat" alt="Profile Views"/>
+
+<br><br>
+
+⭐ Thanks for visiting my profile!
+
 </div>
