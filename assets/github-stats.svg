@@ -8,13 +8,13 @@
 <text x="28" y="39" fill="#c0caf5" font-family="Segoe UI,Arial,sans-serif" font-size="19" font-weight="700">GitHub Stats</text>
 <rect x="25" y="62" width="300" height="112" rx="13" fill="#24283b" stroke="#414868"/>
 <text x="45" y="88" fill="#a9b1d6" font-size="11" font-family="Segoe UI,Arial,sans-serif">Total contributions</text>
-<text x="45" y="143" fill="#7aa2f7" font-size="34" font-weight="700" font-family="Segoe UI,Arial,sans-serif">181</text>
+<text x="45" y="143" fill="#7aa2f7" font-size="34" font-weight="700" font-family="Segoe UI,Arial,sans-serif">185</text>
 <text x="130" y="143" fill="#a9b1d6" font-size="11" font-family="Segoe UI,Arial,sans-serif">in the last year</text>
 <rect x="345" y="62" width="300" height="112" rx="13" fill="#24283b" stroke="#414868"/>
 <text x="365" y="88" fill="#a9b1d6" font-size="11" font-family="Segoe UI,Arial,sans-serif">Current streak</text>
 <circle cx="407" cy="129" r="27" fill="none" stroke="#414868" stroke-width="7"/>
 <circle cx="407" cy="129" r="27" fill="none" stroke="url(#glow)" stroke-width="7" stroke-dasharray="145 170" stroke-linecap="round" transform="rotate(-90 407 129)"/>
-<text x="407" y="136" text-anchor="middle" fill="#c0caf5" font-size="20" font-weight="700" font-family="Segoe UI,Arial,sans-serif">2</text>
+<text x="407" y="136" text-anchor="middle" fill="#c0caf5" font-size="20" font-weight="700" font-family="Segoe UI,Arial,sans-serif">3</text>
 <text x="450" y="126" fill="#c0caf5" font-size="13" font-weight="700" font-family="Segoe UI,Arial,sans-serif">Current streak</text>
 <text x="450" y="145" fill="#a9b1d6" font-size="10" font-family="Segoe UI,Arial,sans-serif">days</text>
 <rect x="665" y="62" width="300" height="112" rx="13" fill="#24283b" stroke="#414868"/>
@@ -45,57 +45,57 @@
 <text x="764.5" y="332" text-anchor="middle" fill="#a9b1d6" font-size="8" font-family="Segoe UI,Arial,sans-serif">09</text>
 <rect x="810.8" y="262.2" width="58.6" height="53.8" rx="4" fill="url(#bar)"/>
 <text x="840.1" y="332" text-anchor="middle" fill="#a9b1d6" font-size="8" font-family="Segoe UI,Arial,sans-serif">10</text>
-<rect x="886.4" y="291.8" width="58.6" height="24.2" rx="4" fill="url(#bar)"/>
+<rect x="886.4" y="287.5" width="58.6" height="28.5" rx="4" fill="url(#bar)"/>
 <text x="915.7" y="332" text-anchor="middle" fill="#a9b1d6" font-size="8" font-family="Segoe UI,Arial,sans-serif">11</text>
 <rect x="25" y="360" width="465" height="225" rx="13" fill="#24283b" stroke="#414868"/>
 <rect x="510" y="360" width="465" height="225" rx="13" fill="#24283b" stroke="#414868"/>
 <text x="45" y="389" fill="#c0caf5" font-size="13" font-weight="700" font-family="Segoe UI,Arial,sans-serif">Top languages by repository</text>
 <text x="530" y="389" fill="#c0caf5" font-size="13" font-weight="700" font-family="Segoe UI,Arial,sans-serif">Top languages by code size</text>
 <circle cx="365" cy="485" r="65" fill="none" stroke="#414868" stroke-width="17"/>
-<circle cx="365" cy="485" r="65" fill="none" stroke="#7aa2f7" stroke-width="17" stroke-dasharray="145.21 263.20" stroke-dashoffset="0.00" transform="rotate(-90 365 485)"/>
-<circle cx="365" cy="485" r="65" fill="none" stroke="#bb9af7" stroke-width="17" stroke-dasharray="127.06 281.35" stroke-dashoffset="-145.21" transform="rotate(-90 365 485)"/>
-<circle cx="365" cy="485" r="65" fill="none" stroke="#9ece6a" stroke-width="17" stroke-dasharray="72.61 335.80" stroke-dashoffset="-272.27" transform="rotate(-90 365 485)"/>
-<circle cx="365" cy="485" r="65" fill="none" stroke="#e0af68" stroke-width="17" stroke-dasharray="36.30 372.10" stroke-dashoffset="-344.88" transform="rotate(-90 365 485)"/>
-<circle cx="365" cy="485" r="65" fill="none" stroke="#f7768e" stroke-width="17" stroke-dasharray="27.23 381.18" stroke-dashoffset="-381.18" transform="rotate(-90 365 485)"/>
+<circle cx="365" cy="485" r="65" fill="none" stroke="#7aa2f7" stroke-width="17" stroke-dasharray="144.64 263.76" stroke-dashoffset="0.00" transform="rotate(-90 365 485)"/>
+<circle cx="365" cy="485" r="65" fill="none" stroke="#bb9af7" stroke-width="17" stroke-dasharray="127.63 280.78" stroke-dashoffset="-144.64" transform="rotate(-90 365 485)"/>
+<circle cx="365" cy="485" r="65" fill="none" stroke="#9ece6a" stroke-width="17" stroke-dasharray="68.07 340.34" stroke-dashoffset="-272.27" transform="rotate(-90 365 485)"/>
+<circle cx="365" cy="485" r="65" fill="none" stroke="#e0af68" stroke-width="17" stroke-dasharray="34.03 374.37" stroke-dashoffset="-340.34" transform="rotate(-90 365 485)"/>
+<circle cx="365" cy="485" r="65" fill="none" stroke="#f7768e" stroke-width="17" stroke-dasharray="34.03 374.37" stroke-dashoffset="-374.37" transform="rotate(-90 365 485)"/>
 <text x="365" y="483" text-anchor="middle" fill="#c0caf5" font-size="23" font-weight="700" font-family="Segoe UI,Arial,sans-serif">5</text>
 <text x="365" y="503" text-anchor="middle" fill="#a9b1d6" font-size="9" font-family="Segoe UI,Arial,sans-serif">LANGUAGES</text>
 <circle cx="53" cy="434" r="4" fill="#7aa2f7"/>
 <text x="65" y="438" fill="#c0caf5" font-size="11" font-family="Segoe UI,Arial,sans-serif">HTML</text>
-<text x="180" y="438" fill="#a9b1d6" font-size="10" text-anchor="end" font-family="Segoe UI,Arial,sans-serif">35.6%</text>
+<text x="180" y="438" fill="#a9b1d6" font-size="10" text-anchor="end" font-family="Segoe UI,Arial,sans-serif">35.4%</text>
 <circle cx="53" cy="459" r="4" fill="#bb9af7"/>
 <text x="65" y="463" fill="#c0caf5" font-size="11" font-family="Segoe UI,Arial,sans-serif">JavaScript</text>
-<text x="180" y="463" fill="#a9b1d6" font-size="10" text-anchor="end" font-family="Segoe UI,Arial,sans-serif">31.1%</text>
+<text x="180" y="463" fill="#a9b1d6" font-size="10" text-anchor="end" font-family="Segoe UI,Arial,sans-serif">31.2%</text>
 <circle cx="53" cy="484" r="4" fill="#9ece6a"/>
 <text x="65" y="488" fill="#c0caf5" font-size="11" font-family="Segoe UI,Arial,sans-serif">CSS</text>
-<text x="180" y="488" fill="#a9b1d6" font-size="10" text-anchor="end" font-family="Segoe UI,Arial,sans-serif">17.8%</text>
+<text x="180" y="488" fill="#a9b1d6" font-size="10" text-anchor="end" font-family="Segoe UI,Arial,sans-serif">16.7%</text>
 <circle cx="53" cy="509" r="4" fill="#e0af68"/>
-<text x="65" y="513" fill="#c0caf5" font-size="11" font-family="Segoe UI,Arial,sans-serif">Python</text>
-<text x="180" y="513" fill="#a9b1d6" font-size="10" text-anchor="end" font-family="Segoe UI,Arial,sans-serif">8.9%</text>
+<text x="65" y="513" fill="#c0caf5" font-size="11" font-family="Segoe UI,Arial,sans-serif">TypeScript</text>
+<text x="180" y="513" fill="#a9b1d6" font-size="10" text-anchor="end" font-family="Segoe UI,Arial,sans-serif">8.3%</text>
 <circle cx="53" cy="534" r="4" fill="#f7768e"/>
-<text x="65" y="538" fill="#c0caf5" font-size="11" font-family="Segoe UI,Arial,sans-serif">TypeScript</text>
-<text x="180" y="538" fill="#a9b1d6" font-size="10" text-anchor="end" font-family="Segoe UI,Arial,sans-serif">6.7%</text>
+<text x="65" y="538" fill="#c0caf5" font-size="11" font-family="Segoe UI,Arial,sans-serif">Python</text>
+<text x="180" y="538" fill="#a9b1d6" font-size="10" text-anchor="end" font-family="Segoe UI,Arial,sans-serif">8.3%</text>
 <circle cx="850" cy="485" r="65" fill="none" stroke="#414868" stroke-width="17"/>
-<circle cx="850" cy="485" r="65" fill="none" stroke="#7aa2f7" stroke-width="17" stroke-dasharray="150.47 257.94" stroke-dashoffset="0.00" transform="rotate(-90 850 485)"/>
-<circle cx="850" cy="485" r="65" fill="none" stroke="#bb9af7" stroke-width="17" stroke-dasharray="117.35 291.05" stroke-dashoffset="-150.47" transform="rotate(-90 850 485)"/>
-<circle cx="850" cy="485" r="65" fill="none" stroke="#9ece6a" stroke-width="17" stroke-dasharray="63.30 345.10" stroke-dashoffset="-267.82" transform="rotate(-90 850 485)"/>
-<circle cx="850" cy="485" r="65" fill="none" stroke="#e0af68" stroke-width="17" stroke-dasharray="51.44 356.96" stroke-dashoffset="-331.13" transform="rotate(-90 850 485)"/>
-<circle cx="850" cy="485" r="65" fill="none" stroke="#f7768e" stroke-width="17" stroke-dasharray="25.84 382.57" stroke-dashoffset="-382.57" transform="rotate(-90 850 485)"/>
+<circle cx="850" cy="485" r="65" fill="none" stroke="#7aa2f7" stroke-width="17" stroke-dasharray="133.38 275.03" stroke-dashoffset="0.00" transform="rotate(-90 850 485)"/>
+<circle cx="850" cy="485" r="65" fill="none" stroke="#bb9af7" stroke-width="17" stroke-dasharray="104.11 304.30" stroke-dashoffset="-133.38" transform="rotate(-90 850 485)"/>
+<circle cx="850" cy="485" r="65" fill="none" stroke="#9ece6a" stroke-width="17" stroke-dasharray="102.55 305.86" stroke-dashoffset="-237.49" transform="rotate(-90 850 485)"/>
+<circle cx="850" cy="485" r="65" fill="none" stroke="#e0af68" stroke-width="17" stroke-dasharray="45.52 362.89" stroke-dashoffset="-340.03" transform="rotate(-90 850 485)"/>
+<circle cx="850" cy="485" r="65" fill="none" stroke="#f7768e" stroke-width="17" stroke-dasharray="22.86 385.55" stroke-dashoffset="-385.55" transform="rotate(-90 850 485)"/>
 <text x="850" y="483" text-anchor="middle" fill="#c0caf5" font-size="23" font-weight="700" font-family="Segoe UI,Arial,sans-serif">5</text>
 <text x="850" y="503" text-anchor="middle" fill="#a9b1d6" font-size="9" font-family="Segoe UI,Arial,sans-serif">LANGUAGES</text>
 <circle cx="538" cy="434" r="4" fill="#7aa2f7"/>
 <text x="550" y="438" fill="#c0caf5" font-size="11" font-family="Segoe UI,Arial,sans-serif">HTML</text>
-<text x="665" y="438" fill="#a9b1d6" font-size="10" text-anchor="end" font-family="Segoe UI,Arial,sans-serif">36.8%</text>
+<text x="665" y="438" fill="#a9b1d6" font-size="10" text-anchor="end" font-family="Segoe UI,Arial,sans-serif">32.7%</text>
 <circle cx="538" cy="459" r="4" fill="#bb9af7"/>
 <text x="550" y="463" fill="#c0caf5" font-size="11" font-family="Segoe UI,Arial,sans-serif">JavaScript</text>
-<text x="665" y="463" fill="#a9b1d6" font-size="10" text-anchor="end" font-family="Segoe UI,Arial,sans-serif">28.7%</text>
+<text x="665" y="463" fill="#a9b1d6" font-size="10" text-anchor="end" font-family="Segoe UI,Arial,sans-serif">25.5%</text>
 <circle cx="538" cy="484" r="4" fill="#9ece6a"/>
 <text x="550" y="488" fill="#c0caf5" font-size="11" font-family="Segoe UI,Arial,sans-serif">TypeScript</text>
-<text x="665" y="488" fill="#a9b1d6" font-size="10" text-anchor="end" font-family="Segoe UI,Arial,sans-serif">15.5%</text>
+<text x="665" y="488" fill="#a9b1d6" font-size="10" text-anchor="end" font-family="Segoe UI,Arial,sans-serif">25.1%</text>
 <circle cx="538" cy="509" r="4" fill="#e0af68"/>
 <text x="550" y="513" fill="#c0caf5" font-size="11" font-family="Segoe UI,Arial,sans-serif">CSS</text>
-<text x="665" y="513" fill="#a9b1d6" font-size="10" text-anchor="end" font-family="Segoe UI,Arial,sans-serif">12.6%</text>
+<text x="665" y="513" fill="#a9b1d6" font-size="10" text-anchor="end" font-family="Segoe UI,Arial,sans-serif">11.1%</text>
 <circle cx="538" cy="534" r="4" fill="#f7768e"/>
 <text x="550" y="538" fill="#c0caf5" font-size="11" font-family="Segoe UI,Arial,sans-serif">Python</text>
-<text x="665" y="538" fill="#a9b1d6" font-size="10" text-anchor="end" font-family="Segoe UI,Arial,sans-serif">6.3%</text>
-<text x="28" y="600" fill="#a9b1d6" font-size="9" font-family="Segoe UI,Arial,sans-serif">Public repositories: 18  •  Stars earned: 0  •  Commits: 162</text>
+<text x="665" y="538" fill="#a9b1d6" font-size="10" text-anchor="end" font-family="Segoe UI,Arial,sans-serif">5.6%</text>
+<text x="28" y="600" fill="#a9b1d6" font-size="9" font-family="Segoe UI,Arial,sans-serif">Public repositories: 19  •  Stars earned: 0  •  Commits: 165</text>
 </svg>
