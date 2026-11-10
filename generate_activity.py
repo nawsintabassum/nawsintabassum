@@ -40,7 +40,7 @@ def fetch_data():
         'Authorization': f'Bearer {TOKEN}',
         'Content-Type': 'application/json',
         'Accept': 'application/json',
-        'User-Agent': 'github-activity-svg-generator'
+        'User-Agent': 'nawsintabassum-github-activity-svg-generator'
     })
     try:
         with urllib.request.urlopen(req, timeout=30) as r:
