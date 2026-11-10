@@ -1,14 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="495" height="190" viewBox="0 0 495 190">
-<defs>
-<linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#24283b"/><stop offset="1" stop-color="#1a1b27"/></linearGradient>
-<linearGradient id="glow" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#bb9af7"/><stop offset="1" stop-color="#7aa2f7"/></linearGradient>
-<linearGradient id="bar" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7dcfff"/><stop offset="1" stop-color="#bb9af7"/></linearGradient>
-</defs>
-<rect x="1" y="1" width="493" height="188" rx="18" fill="url(#panel)" stroke="#414868"/>
-<text x="28" y="39" fill="#c0caf5" font-family="Segoe UI,Arial,sans-serif" font-size="19" font-weight="700">GitHub Contribution Streak</text>
-<text x="55" y="78" fill="#a9b1d6" font-size="12" font-family="Segoe UI,Arial,sans-serif">CURRENT STREAK</text>
-<text x="55" y="116" fill="#7aa2f7" font-size="29" font-weight="700" font-family="Segoe UI,Arial,sans-serif">3 days</text>
-<text x="275" y="78" fill="#a9b1d6" font-size="12" font-family="Segoe UI,Arial,sans-serif">LONGEST STREAK</text>
-<text x="275" y="116" fill="#bb9af7" font-size="29" font-weight="700" font-family="Segoe UI,Arial,sans-serif">3 days</text>
-<text x="55" y="155" fill="#a9b1d6" font-size="11" font-family="Segoe UI,Arial,sans-serif">Based on your GitHub contribution calendar (last 12 months).</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="220" viewBox="0 0 1000 220">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7aa2f7"/><stop offset="1" stop-color="#bb9af7"/></linearGradient></defs>
+<rect x="1" y="1" width="998" height="218" rx="12" fill="#1a1b27" stroke="#414868"/>
+<text x="24" y="34" fill="#7aa2f7" font-family="Segoe UI,Arial,sans-serif" font-size="17" font-weight="700">GitHub Contribution Streak</text>
+<line x1="333" y1="55" x2="333" y2="195" stroke="#414868" stroke-width="1.5"/>
+<line x1="667" y1="55" x2="667" y2="195" stroke="#414868" stroke-width="1.5"/>
+<text x="166" y="105" text-anchor="middle" fill="#ff3e8a" font-family="Arial" font-size="34" font-weight="700">192</text>
+<text x="166" y="135" text-anchor="middle" fill="#ff3e8a" font-family="Arial" font-size="15">Total Contributions</text>
+<text x="166" y="165" text-anchor="middle" fill="#a9b1d6" font-family="Arial" font-size="12">2025-11-09 - 2026-11-10</text>
+<circle cx="500" cy="112" r="39" fill="none" stroke="#49233e" stroke-width="6"/>
+<circle cx="500" cy="112" r="39" fill="none" stroke="#ff3e8a" stroke-width="6" stroke-dasharray="245.04" stroke-dashoffset="0.00" stroke-linecap="round" transform="rotate(-90 500 112)"/>
+<text x="500" y="121" text-anchor="middle" fill="#ffd43b" font-family="Arial" font-size="27" font-weight="700">3</text>
+<text x="500" y="170" text-anchor="middle" fill="#ffd43b" font-family="Arial" font-size="15" font-weight="700">Current Streak</text>
+<text x="500" y="192" text-anchor="middle" fill="#a9b1d6" font-family="Arial" font-size="12">Consecutive days</text>
+<text x="834" y="105" text-anchor="middle" fill="#ff3e8a" font-family="Arial" font-size="34" font-weight="700">3</text>
+<text x="834" y="135" text-anchor="middle" fill="#ff3e8a" font-family="Arial" font-size="15">Longest Streak</text>
+<text x="834" y="165" text-anchor="middle" fill="#a9b1d6" font-family="Arial" font-size="12">Best consecutive days</text>
 </svg>
