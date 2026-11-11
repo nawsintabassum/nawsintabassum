@@ -2,7 +2,7 @@
 <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7aa2f7"/><stop offset="1" stop-color="#bb9af7"/></linearGradient></defs>
 <rect x="1" y="1" width="493" height="228" rx="12" fill="#1a1b27" stroke="#414868"/>
 <text x="24" y="34" fill="#7aa2f7" font-family="Segoe UI,Arial,sans-serif" font-size="17" font-weight="700">Commits by Hours</text>
-<text x="24" y="53" fill="#a9b1d6" font-family="Segoe UI,Arial,sans-serif" font-size="10">Bangladesh Time (UTC+6) | Total: 215</text>
+<text x="24" y="53" fill="#a9b1d6" font-family="Segoe UI,Arial,sans-serif" font-size="10">Bangladesh Time (UTC+6) | Total: 218</text>
 <rect x="25" y="174.76" width="12" height="7.24" rx="3" fill="#7aa2f7"/>
 <text x="31.0" y="201" text-anchor="middle" fill="#a9b1d6" font-family="Segoe UI,Arial,sans-serif" font-size="9">00</text>
 <rect x="43" y="169.33" width="12" height="12.67" rx="3" fill="#7aa2f7"/>
@@ -27,13 +27,13 @@
 <text x="301.0" y="201" text-anchor="middle" fill="#a9b1d6" font-family="Segoe UI,Arial,sans-serif" font-size="9">15</text>
 <rect x="313" y="182.00" width="12" height="2.00" rx="3" fill="#414868"/>
 <rect x="331" y="182.00" width="12" height="2.00" rx="3" fill="#414868"/>
-<rect x="349" y="138.55" width="12" height="43.45" rx="3" fill="#7aa2f7"/>
+<rect x="349" y="136.74" width="12" height="45.26" rx="3" fill="#7aa2f7"/>
 <text x="355.0" y="201" text-anchor="middle" fill="#a9b1d6" font-family="Segoe UI,Arial,sans-serif" font-size="9">18</text>
 <rect x="367" y="138.55" width="12" height="43.45" rx="3" fill="#7aa2f7"/>
 <rect x="385" y="77.00" width="12" height="105.00" rx="3" fill="#7aa2f7"/>
 <rect x="403" y="163.90" width="12" height="18.10" rx="3" fill="#7aa2f7"/>
 <text x="409.0" y="201" text-anchor="middle" fill="#a9b1d6" font-family="Segoe UI,Arial,sans-serif" font-size="9">21</text>
 <rect x="421" y="171.14" width="12" height="10.86" rx="3" fill="#7aa2f7"/>
-<rect x="439" y="178.38" width="12" height="3.62" rx="3" fill="#7aa2f7"/>
+<rect x="439" y="174.76" width="12" height="7.24" rx="3" fill="#7aa2f7"/>
 <text x="24" y="220" fill="#a9b1d6" font-family="Segoe UI,Arial,sans-serif" font-size="9">Hour of day (00–23)</text>
 </svg>
