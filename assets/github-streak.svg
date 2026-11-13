@@ -6,10 +6,10 @@
 <line x1="667" y1="55" x2="667" y2="195" stroke="#414868" stroke-width="1.5"/>
 <text x="166" y="105" text-anchor="middle" fill="#ff3e8a" font-family="Arial" font-size="34" font-weight="700">200</text>
 <text x="166" y="135" text-anchor="middle" fill="#ff3e8a" font-family="Arial" font-size="15">Total Contributions</text>
-<text x="166" y="165" text-anchor="middle" fill="#a9b1d6" font-family="Arial" font-size="12">2025-11-09 - 2026-11-12</text>
+<text x="166" y="165" text-anchor="middle" fill="#a9b1d6" font-family="Arial" font-size="12">2025-11-09 - 2026-11-13</text>
 <circle cx="500" cy="112" r="39" fill="none" stroke="#49233e" stroke-width="6"/>
-<circle cx="500" cy="112" r="39" fill="none" stroke="#ff3e8a" stroke-width="6" stroke-dasharray="245.04" stroke-dashoffset="0.00" stroke-linecap="round" transform="rotate(-90 500 112)"/>
-<text x="500" y="121" text-anchor="middle" fill="#ffd43b" font-family="Arial" font-size="27" font-weight="700">4</text>
+<circle cx="500" cy="112" r="39" fill="none" stroke="#ff3e8a" stroke-width="6" stroke-dasharray="245.04" stroke-dashoffset="245.04" stroke-linecap="round" transform="rotate(-90 500 112)"/>
+<text x="500" y="121" text-anchor="middle" fill="#ffd43b" font-family="Arial" font-size="27" font-weight="700">0</text>
 <text x="500" y="170" text-anchor="middle" fill="#ffd43b" font-family="Arial" font-size="15" font-weight="700">Current Streak</text>
 <text x="500" y="192" text-anchor="middle" fill="#a9b1d6" font-family="Arial" font-size="12">Consecutive days</text>
 <text x="834" y="105" text-anchor="middle" fill="#ff3e8a" font-family="Arial" font-size="34" font-weight="700">4</text>
